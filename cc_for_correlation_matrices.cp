@@ -10,7 +10,7 @@
 /* clustering coef for correlation matrices based on the partial correlation coefficient
 Input
     cov: covariance matrix, whose (i,j) element is stored in cov[nV*i+j]
-    nV: number of nodesa
+    nV: number of nodes
 Output
     Ci_{type}: local clustering coefficient. An array of size nV should be supplied for storing the results.
     C_{type}: global clustering coefficient. The pointer to a variable should be supplied for storing the results.
@@ -79,7 +79,7 @@ int corrmat_C_PHA(double *cov, int nV, double *Ci_P, double *Ci_H, double *Ci_A,
 /* C^{cor,M}, i.e., clustering coef for correlation matrices based on partial mutual information
 Input
     cov: covariance matrix, whose (i,j) element is stored in cov[nV*i+j]
-    nV: number of nodesa
+    nV: number of nodes
 Output
     Ci_M: local clustering coefficient. An array of size nV should be supplied for storing the results.
     C_M: global clustering coefficient. The pointer to a variable should be supplied for storing the results.
