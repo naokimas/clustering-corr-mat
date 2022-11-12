@@ -13,7 +13,7 @@ This paper proposes clustering coefficients for correlation matrix data.
 
 - corrmat_clust_coef.py: functions to calculate the local and global clustering coefficients for correlation matrices
 - test_corrmat_clust_coef.py: an example script to use functions defined in corrmat_clust_coef.py
-- weighted_clust_coef.py: functions to calculate the local and global weighted clustering coefficients for weighted networks. Other researchers proposed these methods in mid 2000s and we examined them for correlation matrix data for comparison purposes.
+- weighted_clust_coef.py: functions to calculate the local and global weighted clustering coefficients for weighted networks. Other researchers proposed these methods in mid 2000s, and we examined them for correlation matrix data for comparison purposes.
 - test_weieghted_clust_coef.py: an example script to use functions defined in weighted_clust_coef.py on a correlation matrix as input
 
 Usage:
