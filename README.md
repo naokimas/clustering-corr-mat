@@ -26,7 +26,7 @@ To run test_corrmat_clust_coef.py or test_weighted_clust_coef.py, you need to pr
 
 ## Code in C++
 
-**corrmat_cc_group.cp** provides functions to calculate local and global clustering coefficients for correlation matrices and some auxiliary functions.
+**cc_for_correlation_matrices.cp** provides functions to calculate local and global clustering coefficients for correlation matrices and some auxiliary functions.
 
 Function corrmat_C_PHA calculates C^{cor,P}, C^{cor,H}, C^{cor,A} and their local variants (i.e. C_i's)
 
