@@ -2,18 +2,18 @@
 Clustering coefficients for correlation matrices. 
 Please cite
 
-Naoki Masuda, Michiko Sakaki, Takahiro Ezaki, Takamitsu Watanabe.
-Clustering coefficients for correlation networks.
+Naoki Masuda, Michiko Sakaki, Takahiro Ezaki, Takamitsu Watanabe.<br>
+Clustering coefficients for correlation networks.<br>
 [Frontiers in Neuroinformatics, 12, 7 (2018).](https://doi.org/10.3389/fninf.2018.00007)
 
-when using the code provided here.
+when using the code provided here.<br>
 This paper proposes clustering coefficients for correlation matrix data.
 
 ## Code in Python
 
-- corrmat_clust_coef.py: functions to calculate the local and global clustering coefficients for correlation matrices
+- **corrmat_clust_coef.py**: functions to calculate the local and global clustering coefficients for correlation matrices
 - test_corrmat_clust_coef.py: an example script to use functions defined in corrmat_clust_coef.py
-- weighted_clust_coef.py: functions to calculate the local and global weighted clustering coefficients for weighted networks. Other researchers proposed these methods in mid 2000s, and we examined them for correlation matrix data for comparison purposes.
+- weighted_clust_coef.py: functions to calculate the local and global weighted clustering coefficients for weighted networks. Other researchers proposed these methods in mid 2000s, and we examined them for correlation matrix data for comparison purposes in our paper.
 - test_weieghted_clust_coef.py: an example script to use functions defined in weighted_clust_coef.py on a correlation matrix as input
 
 Usage:
